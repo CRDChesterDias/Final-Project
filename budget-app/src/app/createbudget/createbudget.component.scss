@@ -46,6 +46,16 @@ input[type=password], select {
   border-radius: 4px;
   box-sizing: border-box;
 }
+input[type=number], select {
+  width: 25%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  margin-left: 20px;;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
 input[type=color], select {
   width: 25%;
 
