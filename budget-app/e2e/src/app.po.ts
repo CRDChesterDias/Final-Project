@@ -6,6 +6,10 @@ export class AppPage {
   }
 
   getTitleText(): Promise<string> {
-    return element(by.css('app-root .content span')).getText() as Promise<string>;
+    return element(by.tagName('title')).getAttribute("innerText") as Promise<string>
   }
+  getPageHeaderText(): Promise<string> {
+    return element(by.id('pageheader')).getAttribute("innerText") as Promise<string>
+  }
+
 }

@@ -1,0 +1,8 @@
+<nav class="menu">
+  <ul>
+      <li><a *ngIf="isloggedin" [routerLink]="['/homepage']">Dash</a></li>
+      <li><a *ngIf="isloggedin" [routerLink]="['/manage']">Manage</a></li>
+      <li><a *ngIf="isloggedin" (click)='Logout()'>Logout</a></li>
+      <!-- <li><a *ngIf="showlogin" (click)='Logout()'>Login</a></li> -->
+    </ul>
+</nav>

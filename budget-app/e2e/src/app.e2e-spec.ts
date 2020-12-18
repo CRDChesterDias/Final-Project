@@ -10,7 +10,12 @@ describe('workspace-project App', () => {
 
   it('should display welcome message', () => {
     page.navigateTo();
-    expect(page.getTitleText()).toEqual('budget-app app is running!');
+    expect(page.getTitleText()).toEqual('BudgetApp');
+  });
+//e2e test case Objective
+  it('should display Page Header', () => {
+    page.navigateTo();
+    expect(page.getPageHeaderText()).toEqual('Personal Budget');
   });
 
   afterEach(async () => {

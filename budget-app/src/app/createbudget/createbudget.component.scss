@@ -1,0 +1,70 @@
+.Login_Outer_Div{
+  margin: auto;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  margin-left: 20%;
+  width: 60%;
+  height: 90%;
+  float: left;
+  box-shadow: 4px 4px 4px 4px rgba(0,0,0,0.2);
+}
+.Login_Left_Div{
+  width: 50%;
+  height: 98%;
+  background-image: url('../../assets/Images_Login.png');
+  float: left;
+}
+.Login_Rights_Div{
+  float: right;
+  height: 98%;
+
+}
+.Login_Header{
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
+  margin-left: 10%;
+  padding-left: 6%;
+  margin-top: 2%;
+}
+input[type=text], select {
+  width: 25%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  margin-left: 20px;;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=password], select {
+  width: 25%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  margin-left: 20px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=color], select {
+  width: 25%;
+
+  margin: 8px 0;
+  margin-left: 20px;
+
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+button {
+  width: 25%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 20px;
+}
+

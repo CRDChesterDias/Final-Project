@@ -1,0 +1,53 @@
+.Login_Outer_Div{
+  margin: auto;
+  // margin-top: 2%;
+  // margin-bottom: 2%;
+   margin-left: 15%;
+  width: 80%;
+  height: 60%;
+  float: left;
+  box-shadow: 4px 4px 4px 4px rgba(0,0,0,0.2);
+  display: flex;
+}
+.Login_Left_Div{
+
+  width: 35%;
+  height: 35%;
+  float: left;
+  flex: 1; /* additionally, equal width */
+
+}
+.Login_Rights_Div{
+  float: right;
+  flex: 1; /* additionally, equal width */
+ // height: 98%;
+   width: 49%;
+  margin-top: 2%;
+}
+canvas{
+  width: 320px;
+  height: 320px;
+}
+
+#graph {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  width: 400px;
+  height: 150px;
+  position: relative;
+}
+
+svg {
+    width: 100%;
+    height: 100%;
+}
+
+path.slice{
+    stroke-width:2px;
+}
+
+polyline{
+    opacity: .3;
+    stroke: black;
+    stroke-width: 2px;
+    fill: none;
+}

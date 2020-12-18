@@ -1,0 +1,14 @@
+
+  <div class="Login_Outer_Div" id='content' #content>
+    <div class="Login_Left_Div"></div>
+    <div class="Login_Right_Div">
+      <div class="Login_Header"><h1>LOGIN</h1></div><br>
+      &nbsp;<label for="username" class="Login_Labels" aria-label="User ID">User ID:</label><br>
+      &nbsp;<input type="text" id="username" name="username" aria-label="Enter User ID"><br>
+      &nbsp;<label for="pwd" class="Login_Labels" aria-label="Password">Password:</label><br>
+      &nbsp;<input type="password" id="pwd" name="pwd" aria-label="Enter Password"><br>
+      &nbsp;<button type="button" (click)='login()' label='Submit' aria-label="Submit button">Submit</button></div>
+      <a [routerLink]="['/signup']">Signup>>>></a>
+      &nbsp;<p id="status"></p>
+  </div>
+

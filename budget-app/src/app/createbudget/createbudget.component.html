@@ -1,0 +1,33 @@
+
+<div class="Login_Outer_Div">
+  <div class="Login_Left_Div"></div>
+  <div class="Login_Right_Div">
+    <div class="Login_Header" id="Login_Header"><p>Manage Budget</p></div>
+<select name="budget_type" #budget_type id="budget_type">
+  <option [value]="1">Allocate Budget</option>
+  <option [value]="2">Actual Budget</option>
+</select><br>
+<label for="month">Month:</label><br>
+
+<select name="month" #mySelect id="month">
+  <option [value]="1">Jan</option>
+  <option [value]="2">Feb</option>
+  <option [value]="3">March</option>
+  <option [value]="4">April</option>
+  <option [value]="5">May</option>
+  <option [value]="6">June</option>
+  <option [value]="7">July</option>
+  <option [value]="8">August</option>
+  <option [value]="9">September</option>
+  <option [value]="10">October</option>
+  <option [value]="11">November</option>
+  <option [value]="12">December</option>
+</select><br>
+<label for="category">Category:</label><br>
+<input type="text" id="category" name="category" value=""><br>
+<label for="budget">Budget:</label><br>
+<input type="text" id="budget" name="budget" value=""><br><br>
+<label for="color">Color:</label><br>
+<input type="color" id="color" name="color" value="#f6b73c"><br>
+<button type="button" (click)='insert()'>Submit</button>
+</div>
